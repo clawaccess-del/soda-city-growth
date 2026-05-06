@@ -22,6 +22,10 @@ Columbia, South Carolina local-agency website focused on:
 - `/areas/irmo-sc-marketing-agency.html`
 - `/areas/forest-acres-sc-marketing-agency.html`
 
+## Reusable system docs
+- `docs/SOP-national-local-growth-sites.md`
+- `docs/local-market-site-framework-template.md`
+
 ## Notes
 - Built as a lightweight static site for fast Vercel deployment.
 - Public brand name: `Soda City Growth`.
