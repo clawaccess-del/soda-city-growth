@@ -22,6 +22,12 @@ Columbia, South Carolina local-agency website focused on:
 - `/areas/irmo-sc-marketing-agency.html`
 - `/areas/forest-acres-sc-marketing-agency.html`
 
+## Project context
+- `context/HANDOFF.md`
+- `context/scripts/` for project-specific helper scripts
+- `context/research/` for market and competitor reference material
+- `context/screenshots/` for project QA captures
+
 ## Reusable system docs
 - `docs/SOP-national-local-growth-sites.md`
 - `docs/local-market-site-framework-template.md`
