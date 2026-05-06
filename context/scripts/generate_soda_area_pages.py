@@ -215,14 +215,13 @@ template = """<!doctype html>
   <link rel=\"canonical\" href=\"https://sodacitygrowth.com/areas/{slug}\" />
   <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" />
   <link rel=\"stylesheet\" href=\"/styles.css\" />
-  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-Z5VT0W7XLZ\"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {{ dataLayer.push(arguments); }}
-    window.gtag = window.gtag || gtag;
-    gtag('js', new Date());
-    gtag('config', 'G-Z5VT0W7XLZ');
-  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':
+  new Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=
+  \'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,\'script\',\'dataLayer\',\'GTM-THX4GQZS\');</script>
+  <!-- End Google Tag Manager -->
   <script type=\"application/ld+json\">
   {{
     \"@context\": \"https://schema.org\",
@@ -305,6 +304,10 @@ template = """<!doctype html>
   </script>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-THX4GQZS\"
+  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class=\"site-header\">
     <div class=\"wrap header-row\">
       <a class=\"brand\" href=\"/\">

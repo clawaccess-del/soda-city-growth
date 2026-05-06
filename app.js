@@ -1,4 +1,4 @@
-const GA_TRACKING_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid', 'msclkid'];
+const TRACKING_QUERY_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid', 'msclkid'];
 const ATTRIBUTION_STORAGE_KEY = 'oc_attribution';
 
 const toggle = document.querySelector('.nav-toggle');
@@ -6,12 +6,12 @@ const nav = document.querySelector('.nav');
 const leadForm = document.querySelector('#lead-form');
 const formNote = document.querySelector('#form-note');
 
-function trackEvent(eventName, params = {}) {
-  if (typeof window.gtag !== 'function') {
-    return;
-  }
-
-  window.gtag('event', eventName, params);
+function pushAnalyticsEvent(eventName, params = {}) {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: eventName,
+    ...params,
+  });
 }
 
 function readStoredAttribution() {
@@ -47,7 +47,7 @@ function getAttributionSnapshot() {
     next.referrer = document.referrer;
   }
 
-  GA_TRACKING_KEYS.forEach((key) => {
+  TRACKING_QUERY_KEYS.forEach((key) => {
     const value = params.get(key);
     if (value) {
       next[key] = value;
@@ -72,7 +72,7 @@ function buildAttributionLines() {
     lines.push(`Referrer: ${attribution.referrer}`);
   }
 
-  GA_TRACKING_KEYS.forEach((key) => {
+  TRACKING_QUERY_KEYS.forEach((key) => {
     if (attribution[key]) {
       lines.push(`${key}: ${attribution[key]}`);
     }
@@ -86,6 +86,9 @@ function getLinkLabel(link) {
 }
 
 getAttributionSnapshot();
+pushAnalyticsEvent('session_attribution_ready', {
+  page_path: window.location.pathname,
+});
 
 if (toggle && nav) {
   const closeNav = () => {
@@ -96,7 +99,7 @@ if (toggle && nav) {
   toggle.addEventListener('click', () => {
     const open = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', String(open));
-    trackEvent('nav_toggle', { open });
+    pushAnalyticsEvent('nav_toggle', { open, page_path: window.location.pathname });
   });
 
   nav.querySelectorAll('a').forEach((link) => {
@@ -118,7 +121,7 @@ if (toggle && nav) {
 
 document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
   link.addEventListener('click', () => {
-    trackEvent('click_call', {
+    pushAnalyticsEvent('click_call', {
       link_url: link.href,
       link_text: getLinkLabel(link),
       page_path: window.location.pathname,
@@ -128,7 +131,7 @@ document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
 
 document.querySelectorAll('a[href^="sms:"]').forEach((link) => {
   link.addEventListener('click', () => {
-    trackEvent('click_sms', {
+    pushAnalyticsEvent('click_sms', {
       link_url: link.href,
       link_text: getLinkLabel(link),
       page_path: window.location.pathname,
@@ -139,6 +142,14 @@ document.querySelectorAll('a[href^="sms:"]').forEach((link) => {
 if (leadForm) {
   leadForm.addEventListener('submit', (event) => {
     event.preventDefault();
+
+    const target = leadForm.dataset.smsTarget;
+    if (!target) {
+      if (formNote) {
+        formNote.textContent = 'This form is not connected right now. Please call or text (803) 602-4458 instead.';
+      }
+      return;
+    }
 
     const formData = new FormData(leadForm);
     const lines = [
@@ -157,10 +168,9 @@ if (leadForm) {
     }
 
     const message = encodeURIComponent(lines.join('\n').trim());
-    const target = leadForm.dataset.smsTarget || '+18036024458';
     const smsUrl = `sms:${target}?body=${message}`;
 
-    trackEvent('lead_form_submit', {
+    pushAnalyticsEvent('lead_form_submit', {
       page_path: window.location.pathname,
       service: String(formData.get('service') || ''),
       contact_method: 'sms_prefill',
