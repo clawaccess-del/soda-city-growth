@@ -28,6 +28,8 @@ Columbia, South Carolina agency website built to target:
 ## What is already in place
 - Columbia-focused copy and location targeting
 - Free website offer framing
+- Clear site-wide messaging that the free website offer runs through a six-month contract because of the upfront research, planning, keyword work, structure planning, topic planning, and industry research involved
+- Clear messaging that the roster is capped at 15 active clients to keep responses fast and strategy support close
 - AI ranking / AI-ready SEO positioning
 - Local service-area references
 - Basic schema, robots.txt, sitemap.xml, favicon, shared CSS/JS
@@ -40,11 +42,11 @@ Columbia, South Carolina agency website built to target:
 - No public email address has been published yet because none has been provided.
 
 ## Biggest next improvements
-1. Add email, form, or calendar/contact CTA beyond the phone number
+1. Publish a real public email address if one is available
 2. Add proof: testimonials, case studies, screenshots, or offer examples
-3. Decide whether the free website offer is tied to SEO, ads, or either
+3. Add a real lead-routing backend or booking flow instead of the current text-draft handoff
 4. Add secondary local landing pages if expanding beyond the core Columbia terms
-5. Connect a real lead form or booking flow
+5. Add stronger trust signals around the six-month model, like process visuals or sample deliverables
 
 ## Deployment notes
 - Vercel project: `soda-city-growth`
