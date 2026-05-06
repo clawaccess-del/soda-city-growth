@@ -18,6 +18,9 @@ This system is not just a brochure website. It is a local lead-generation site b
 
 ## Entity separation rule
 
+This rule applies only to the local marketing websites built from this Soda City Growth market-site SOP.
+It does not automatically apply to unrelated websites in other project lines.
+
 Every website built from this SOP must be treated as a separate business entity.
 
 That means:
@@ -386,8 +389,9 @@ When cloning this system into multiple markets:
 - do not launch dozens of thin area pages at once
 - create deeper proof assets over time so later markets launch stronger than earlier ones
 - standardize what changes by market versus what stays global
-- treat every launched website as a separate entity, not as a public network of cross-linked sibling sites unless strategy explicitly changes later
+- treat every launched website in this market-site portfolio as a separate entity, not as a public network of cross-linked sibling sites unless strategy explicitly changes later
 - keep each market's notes, assets, proofs, routing, and operational context inside that market's own project folder
+- do not carry this SOP's brand-separation rules over to unrelated projects unless a different project explicitly adopts them
 
 ## What should be standardized vs customized
 
