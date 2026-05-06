@@ -455,11 +455,30 @@ h1 {
   color: white;
 }
 
+.band .section-intro h2,
 .band .section-intro p,
 .band .checklist div,
 .band h2,
+.band h3,
+.band p,
+.band li,
+.band strong { color: #f7fbff; }
+
 .band .eyebrow {
-  color: inherit;
+  color: rgba(255,255,255,.82);
+}
+
+.band .section-intro p,
+.band .checklist div,
+.band li {
+  color: rgba(247,251,255,.86);
+}
+
+.band .button.secondary,
+.band .contact-link {
+  background: rgba(255,255,255,.96);
+  color: var(--brand-deep);
+  border-color: rgba(255,255,255,.2);
 }
 
 .location-strip {
