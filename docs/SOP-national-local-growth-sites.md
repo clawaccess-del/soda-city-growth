@@ -16,6 +16,18 @@ This system is not just a brochure website. It is a local lead-generation site b
 - AI-ready page structure and FAQs
 - small-roster positioning for faster support
 
+## Entity separation rule
+
+Every website built from this SOP must be treated as a separate business entity.
+
+That means:
+
+- no cross-linking between sibling market websites unless explicitly approved later
+- no public references from one market brand/site to another market brand/site
+- no mixed project notes across websites
+- no shared contact details, proofs, or brand claims unless they are intentionally and explicitly the same business
+- reuse the framework internally, but keep the finished websites operationally and publicly separate
+
 ## What is already baked into the Soda City Growth model
 
 ### Offer architecture
@@ -374,6 +386,8 @@ When cloning this system into multiple markets:
 - do not launch dozens of thin area pages at once
 - create deeper proof assets over time so later markets launch stronger than earlier ones
 - standardize what changes by market versus what stays global
+- treat every launched website as a separate entity, not as a public network of cross-linked sibling sites unless strategy explicitly changes later
+- keep each market's notes, assets, proofs, routing, and operational context inside that market's own project folder
 
 ## What should be standardized vs customized
 
