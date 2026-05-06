@@ -227,12 +227,38 @@ template = """<!doctype html>
         \"url\": \"https://sodacitygrowth.com/areas/{slug}\",
         \"description\": \"{meta}\",
         \"provider\": {{
-          \"@type\": \"Organization\",
-          \"name\": \"Soda City Growth\",
-          \"url\": \"https://sodacitygrowth.com/\",
-          \"telephone\": \"+1-803-602-4458\"
+          \"@id\": \"https://sodacitygrowth.com/#localbusiness\"
         }},
         \"areaServed\": \"{city}, South Carolina\"
+      }},
+      {{
+        \"@type\": [\"LocalBusiness\", \"AdvertisingAgency\"],
+        \"@id\": \"https://sodacitygrowth.com/#localbusiness\",
+        \"name\": \"Soda City Growth\",
+        \"url\": \"https://sodacitygrowth.com/\",
+        \"description\": \"Soda City Growth is a Columbia, South Carolina marketing website focused on free website builds for qualifying businesses, local SEO, Google Business Profile management, citation support, AI-ready page structure, and Google Ads landing pages.\",
+        \"telephone\": \"+1-803-602-4458\",
+        \"logo\": {{
+          \"@type\": \"ImageObject\",
+          \"url\": \"https://sodacitygrowth.com/assets/branding/soda-city-growth-logo.webp\"
+        }},
+        \"image\": \"https://sodacitygrowth.com/assets/branding/soda-city-growth-logo.webp\",
+        \"serviceArea\": [
+          \"Columbia, South Carolina\",
+          \"Lexington, South Carolina\",
+          \"West Columbia, South Carolina\",
+          \"Cayce, South Carolina\",
+          \"Irmo, South Carolina\",
+          \"Forest Acres, South Carolina\"
+        ],
+        \"areaServed\": [
+          \"Columbia, South Carolina\",
+          \"Lexington, South Carolina\",
+          \"West Columbia, South Carolina\",
+          \"Cayce, South Carolina\",
+          \"Irmo, South Carolina\",
+          \"Forest Acres, South Carolina\"
+        ]
       }},
       {{
         \"@type\": \"WebPage\",
@@ -242,6 +268,9 @@ template = """<!doctype html>
         \"description\": \"{meta}\",
         \"mainEntity\": {{
           \"@id\": \"https://sodacitygrowth.com/areas/{slug}#service\"
+        }},
+        \"about\": {{
+          \"@id\": \"https://sodacitygrowth.com/#localbusiness\"
         }},
         \"inLanguage\": \"en-US\"
       }},
@@ -270,7 +299,7 @@ template = """<!doctype html>
 <body>
   <header class=\"site-header\">
     <div class=\"wrap header-row\">
-      <a class=\"brand\" href=\"/index.html\">
+      <a class=\"brand\" href=\"/\">
         <span class=\"brand-mark\">SC</span>
         <span>
           <strong>Soda City Growth</strong>
@@ -279,11 +308,11 @@ template = """<!doctype html>
       </a>
       <button class=\"nav-toggle\" aria-expanded=\"false\" aria-controls=\"site-nav\">Menu</button>
       <nav class=\"nav\" id=\"site-nav\">
-        <a href=\"/index.html\">Home</a>
-        <a href=\"/services/free-websites-columbia-sc.html\">Free Websites</a>
-        <a href=\"/services/seo-ai-ranking-columbia-sc.html\">SEO + AI</a>
-        <a href=\"/services/google-ads-columbia-sc.html\">Paid Ads</a>
-        <a href=\"/contact.html\">Contact</a>
+        <a href=\"/\">Home</a>
+        <a href=\"/services/free-websites-columbia-sc\">Free Websites</a>
+        <a href=\"/services/seo-ai-ranking-columbia-sc\">SEO + AI</a>
+        <a href=\"/services/google-ads-columbia-sc\">Paid Ads</a>
+        <a href=\"/contact\">Contact</a>
         <a class=\"nav-phone\" href=\"tel:+18036024458\">Call Now</a>
       </nav>
     </div>
@@ -298,7 +327,7 @@ template = """<!doctype html>
           <p class=\"lead\">{lead}</p>
           <div class=\"hero-actions\">
             <a class=\"button\" href=\"tel:+18036024458\">Call Now</a>
-            <a class=\"button secondary\" href=\"/services/free-websites-columbia-sc.html\">See the website offer</a>
+            <a class=\"button secondary\" href=\"/services/free-websites-columbia-sc\">See the website offer</a>
           </div>
         </div>
         <aside class=\"sidebar-card\">
@@ -357,17 +386,17 @@ template = """<!doctype html>
           <h2>{related_title}</h2>
         </div>
         <div class=\"service-links\">
-          <a class=\"service-link-card\" href=\"/services/free-websites-columbia-sc.html\">
+          <a class=\"service-link-card\" href=\"/services/free-websites-columbia-sc\">
             <h3>Free Website Builds</h3>
             <p>{service1_text}</p>
             <span>Read more</span>
           </a>
-          <a class=\"service-link-card\" href=\"/services/seo-ai-ranking-columbia-sc.html\">
+          <a class=\"service-link-card\" href=\"/services/seo-ai-ranking-columbia-sc\">
             <h3>Local SEO + GBP + AI Visibility</h3>
             <p>{service2_text}</p>
             <span>Read more</span>
           </a>
-          <a class=\"service-link-card\" href=\"/services/google-ads-columbia-sc.html\">
+          <a class=\"service-link-card\" href=\"/services/google-ads-columbia-sc\">
             <h3>Google Ads</h3>
             <p>{service3_text}</p>
             <span>Read more</span>
@@ -385,11 +414,11 @@ template = """<!doctype html>
         <a class=\"contact-link\" href=\"tel:+18036024458\">Call or text (803) 602-4458</a>
       </div>
       <div class=\"footer-links\">
-        <a href=\"/index.html\">Home</a>
-        <a href=\"/services/free-websites-columbia-sc.html\">Free Websites</a>
-        <a href=\"/services/seo-ai-ranking-columbia-sc.html\">SEO + AI</a>
-        <a href=\"/services/google-ads-columbia-sc.html\">Paid Ads</a>
-        <a href=\"/contact.html\">Contact</a>
+        <a href=\"/\">Home</a>
+        <a href=\"/services/free-websites-columbia-sc\">Free Websites</a>
+        <a href=\"/services/seo-ai-ranking-columbia-sc\">SEO + AI</a>
+        <a href=\"/services/google-ads-columbia-sc\">Paid Ads</a>
+        <a href=\"/contact\">Contact</a>
       </div>
     </div>
   </footer>
