@@ -211,8 +211,8 @@ template = """<!doctype html>
   <meta property=\"og:title\" content=\"{title}\" />
   <meta property=\"og:description\" content=\"{og}\" />
   <meta property=\"og:type\" content=\"article\" />
-  <meta property=\"og:url\" content=\"https://soda-city-growth.vercel.app/areas/{slug}\" />
-  <link rel=\"canonical\" href=\"https://soda-city-growth.vercel.app/areas/{slug}\" />
+  <meta property=\"og:url\" content=\"https://sodacitygrowth.com/areas/{slug}\" />
+  <link rel=\"canonical\" href=\"https://sodacitygrowth.com/areas/{slug}\" />
   <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" />
   <link rel=\"stylesheet\" href=\"/styles.css\" />
   <script type=\"application/ld+json\">
@@ -221,45 +221,45 @@ template = """<!doctype html>
     \"@graph\": [
       {{
         \"@type\": \"Service\",
-        \"@id\": \"https://soda-city-growth.vercel.app/areas/{slug}#service\",
+        \"@id\": \"https://sodacitygrowth.com/areas/{slug}#service\",
         \"name\": \"Marketing services in {city}, South Carolina\",
         \"serviceType\": [\"Website design\", \"Local SEO\", \"Google Business Profile management\", \"Google Ads\"],
-        \"url\": \"https://soda-city-growth.vercel.app/areas/{slug}\",
+        \"url\": \"https://sodacitygrowth.com/areas/{slug}\",
         \"description\": \"{meta}\",
         \"provider\": {{
           \"@type\": \"Organization\",
           \"name\": \"Soda City Growth\",
-          \"url\": \"https://soda-city-growth.vercel.app/\",
+          \"url\": \"https://sodacitygrowth.com/\",
           \"telephone\": \"+1-803-602-4458\"
         }},
         \"areaServed\": \"{city}, South Carolina\"
       }},
       {{
         \"@type\": \"WebPage\",
-        \"@id\": \"https://soda-city-growth.vercel.app/areas/{slug}#webpage\",
-        \"url\": \"https://soda-city-growth.vercel.app/areas/{slug}\",
+        \"@id\": \"https://sodacitygrowth.com/areas/{slug}#webpage\",
+        \"url\": \"https://sodacitygrowth.com/areas/{slug}\",
         \"name\": \"{title}\",
         \"description\": \"{meta}\",
         \"mainEntity\": {{
-          \"@id\": \"https://soda-city-growth.vercel.app/areas/{slug}#service\"
+          \"@id\": \"https://sodacitygrowth.com/areas/{slug}#service\"
         }},
         \"inLanguage\": \"en-US\"
       }},
       {{
         \"@type\": \"BreadcrumbList\",
-        \"@id\": \"https://soda-city-growth.vercel.app/areas/{slug}#breadcrumb\",
+        \"@id\": \"https://sodacitygrowth.com/areas/{slug}#breadcrumb\",
         \"itemListElement\": [
           {{
             \"@type\": \"ListItem\",
             \"position\": 1,
             \"name\": \"Home\",
-            \"item\": \"https://soda-city-growth.vercel.app/\"
+            \"item\": \"https://sodacitygrowth.com/\"
           }},
           {{
             \"@type\": \"ListItem\",
             \"position\": 2,
             \"name\": \"Marketing Agency in {city}, SC\",
-            \"item\": \"https://soda-city-growth.vercel.app/areas/{slug}\"
+            \"item\": \"https://sodacitygrowth.com/areas/{slug}\"
           }}
         ]
       }}
