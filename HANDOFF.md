@@ -31,7 +31,7 @@ Columbia, South Carolina agency website built to target:
 - Free website offer framing
 - Clear site-wide messaging that the free website offer runs through a six-month contract because of the upfront research, planning, keyword work, structure planning, topic planning, and industry research involved
 - Clear messaging that the roster is capped at 15 active clients to keep responses fast and strategy support close
-- Homepage framing that the website is the hook and foundation, while the main ongoing service is the broader local growth stack
+- Homepage framing that the website is the starting point, while the main ongoing service is the broader local growth stack and the client-facing benefits are stronger visibility, better trust, and better lead flow
 - Google Business Profile management, monthly posts, and citation support messaging on the homepage, SEO page, free website page, and contact page
 - AI ranking / AI-ready SEO positioning
 - Local service-area references
