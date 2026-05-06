@@ -215,6 +215,14 @@ template = """<!doctype html>
   <link rel=\"canonical\" href=\"https://sodacitygrowth.com/areas/{slug}\" />
   <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" />
   <link rel=\"stylesheet\" href=\"/styles.css\" />
+  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-Z5VT0W7XLZ\"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {{ dataLayer.push(arguments); }}
+    window.gtag = window.gtag || gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-Z5VT0W7XLZ');
+  </script>
   <script type=\"application/ld+json\">
   {{
     \"@context\": \"https://schema.org\",
