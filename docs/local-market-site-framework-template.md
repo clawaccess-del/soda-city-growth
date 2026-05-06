@@ -57,9 +57,12 @@ Capture:
 Define these before writing or styling the site.
 
 - local brand mood: [grounded / polished / premium / practical / calm / direct / civic / coastal / etc.]
+- chosen color harmony: [analogous / monochromatic / complementary / split-complementary]
+- dominant / supporting / accent color roles: [60 / 30 / 10 target]
 - likely buyer decision mode: [phone-first / comparison-heavy / proof-first / convenience-first / authority-first / etc.]
 - local visual cues to borrow from
 - local visual cues to avoid
+- contrast and legibility checks to pass in hero, footer, CTA, and text treatments
 - trust signals to emphasize most
 - CTA tone that fits the area
 - page-flow emphasis, for example: trust first, convenience first, authority first, or lead capture first
@@ -111,6 +114,9 @@ The framework stays consistent, but the brand expression should change by market
 For each launch:
 
 - let local color cues and styling come from the area itself
+- choose colors that work together by color theory, not just because they are locally associated with the market
+- keep the palette disciplined, with one dominant color family, one supporting family, and one restrained accent
+- verify that CTA, footer, hero, and text/background combinations stay legible and cohesive before launch
 - let buyer behavior influence section order, trust emphasis, and CTA tone
 - keep the finished site feeling native to the market, not like a templated rollover from another city
 - avoid overplaying local cues in a cheesy way

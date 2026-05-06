@@ -118,6 +118,10 @@ Every market built from this SOP must translate the shared framework into a loca
 That means:
 
 - use area-specific color and styling cues drawn from the local environment, civic identity, architecture, landscape, pace, and buyer expectations
+- choose a deliberate color harmony before locking the palette, for example analogous, monochromatic, complementary, or split-complementary, instead of mixing colors by instinct alone
+- keep the core interface palette tight, usually one dominant color, one supporting color, and one restrained accent, roughly following a 60-30-10 balance
+- check hero, footer, CTA, link, and text/background pairings for legibility and accessible contrast before approving the scheme
+- if one color fights the rest of the palette, remove or soften it instead of forcing it in
 - let the local buyer profile shape the tone, page rhythm, CTA emphasis, and trust framing
 - make the site feel like it belongs in that market, not like it was skinned from a generic national template
 - keep the components reusable, but customize the brand expression, section emphasis, and copy angle for each market
@@ -199,9 +203,11 @@ Do not start cloning until these inputs are gathered.
 
 1. Build a market-specific visual direction before rewriting the site.
 2. Choose a palette and styling cues based on the area, not just the previous market's look.
-3. Define what kind of person the market site should feel like, for example polished, grounded, premium, practical, local, direct, or civic.
-4. Decide which trust signals should be emphasized in design and copy for that market.
-5. Lock the homepage tone, CTA style, and page rhythm around that local brand direction.
+3. Run a basic color-theory check before finalizing the scheme: name the harmony, confirm the dominant/supporting/accent roles, and verify the accent is restrained rather than competing everywhere.
+4. Check CTA, header, hero, footer, and text/background combinations for contrast, legibility, and visual cohesion.
+5. Define what kind of person the market site should feel like, for example polished, grounded, premium, practical, local, direct, or civic.
+6. Decide which trust signals should be emphasized in design and copy for that market.
+7. Lock the homepage tone, CTA style, and page rhythm around that local brand direction.
 
 ### Phase 4: site setup
 
