@@ -232,7 +232,7 @@ template = """<!doctype html>
         \"areaServed\": \"{city}, South Carolina\"
       }},
       {{
-        \"@type\": [\"LocalBusiness\", \"AdvertisingAgency\"],
+        \"@type\": \"LocalBusiness\",
         \"@id\": \"https://sodacitygrowth.com/#localbusiness\",
         \"name\": \"Soda City Growth\",
         \"url\": \"https://sodacitygrowth.com/\",
