@@ -8,7 +8,8 @@ Columbia, South Carolina agency website built to target:
 - Google Ads / paid ads
 
 ## Live URLs
-- Production: https://soda-city-growth.vercel.app
+- Production: https://sodacitygrowth.com/
+- Legacy Vercel host: https://soda-city-growth.vercel.app
 - GitHub: https://github.com/clawaccess-del/soda-city-growth
 
 ## Brand
@@ -61,4 +62,5 @@ Columbia, South Carolina agency website built to target:
 ## Deployment notes
 - Vercel project: `soda-city-growth`
 - Scope: `clawaccess-5765s-projects`
-- Current production alias: `https://soda-city-growth.vercel.app`
+- Current production alias: `https://sodacitygrowth.com/`
+- Legacy deployment host still exists at `https://soda-city-growth.vercel.app`
