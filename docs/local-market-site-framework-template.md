@@ -48,8 +48,23 @@ Capture:
 - whether the market is suburban, urban, commuter-heavy, affluent, blue-collar, mixed, etc.
 - trust factors that matter in that market
 - search-intent patterns that seem obvious
+- likely buyer personality and decision style
+- colors, materials, architecture, landscape, or civic cues that could shape the brand direction
+- visual or tone choices that would feel wrong for that market
 
-## 3. Offer stack for the market
+## 3. Brand calibration worksheet
+
+Define these before writing or styling the site.
+
+- local brand mood: [grounded / polished / premium / practical / calm / direct / civic / coastal / etc.]
+- likely buyer decision mode: [phone-first / comparison-heavy / proof-first / convenience-first / authority-first / etc.]
+- local visual cues to borrow from
+- local visual cues to avoid
+- trust signals to emphasize most
+- CTA tone that fits the area
+- page-flow emphasis, for example: trust first, convenience first, authority first, or lead capture first
+
+## 4. Offer stack for the market
 
 Confirm which of these are active:
 
@@ -63,7 +78,7 @@ Confirm which of these are active:
 - Google Ads / paid search
 - AI-ready SEO structure
 
-## 4. Positioning rules
+## 5. Positioning rules
 
 ### Primary positioning statement
 
@@ -89,7 +104,18 @@ Use 3 to 5:
 - the contract exists because of the upfront research and planning work
 - the roster cap exists to support service quality
 
-## 5. Standard sitemap
+### Market-specific brand rule
+
+The framework stays consistent, but the brand expression should change by market.
+
+For each launch:
+
+- let local color cues and styling come from the area itself
+- let buyer behavior influence section order, trust emphasis, and CTA tone
+- keep the finished site feeling native to the market, not like a templated rollover from another city
+- avoid overplaying local cues in a cheesy way
+
+## 6. Standard sitemap
 
 Build these pages first.
 
@@ -107,7 +133,7 @@ Build these pages first.
 
 Add more area pages only if they are commercially relevant.
 
-## 6. Homepage framework
+## 7. Homepage framework
 
 ### SEO fields
 
@@ -123,10 +149,12 @@ Description pattern:
 
 1. Hero
    - outcome-led headline
+   - explicit free-offer hook when that is part of the offer
    - service stack in plain English
    - primary CTA
    - secondary CTA
    - 3 short benefit points
+   - local tone and visual direction matched to the market
 
 2. Areas served strip
    - primary city
@@ -143,6 +171,7 @@ Description pattern:
 5. Differentiators
    - small roster
    - one integrated strategy stack
+   - local-fit trust framing
 
 6. How visibility improves
    - offer clarity
@@ -162,6 +191,17 @@ Description pattern:
 
 10. FAQ block
 
+### Homepage brand rule
+
+The homepage should visually and verbally signal the area.
+
+That can include:
+
+- local palette cues
+- typography tone that fits the market
+- trust language that matches how local buyers choose
+- section order that reflects whether the market needs trust, clarity, convenience, authority, or polish first
+
 ### Homepage schema
 
 Include:
@@ -171,7 +211,7 @@ Include:
 - WebPage
 - FAQPage
 
-## 7. Service page frameworks
+## 8. Service page frameworks
 
 ### Free website page
 
@@ -192,6 +232,10 @@ Sections:
 - what qualifies
 - why the contract and cap exist
 - FAQ
+
+Extra rule:
+
+- be explicit that the website build is free when that is the hook
 
 Schema:
 
@@ -216,6 +260,10 @@ Sections:
 - why the site comes first
 - built to support growth
 - FAQ
+
+Extra rule:
+
+- explain the design standard in a way that matches the local market's trust expectations
 
 Schema:
 
@@ -242,6 +290,10 @@ Sections:
 - market coverage
 - FAQ
 
+Extra rule:
+
+- use local search behavior and local trust cues in examples and framing
+
 Schema:
 
 - Service
@@ -266,6 +318,10 @@ Sections:
 - local coverage
 - FAQ
 
+Extra rule:
+
+- connect landing-page quality to the way buyers in that market evaluate trust and take action
+
 Schema:
 
 - Service
@@ -273,7 +329,7 @@ Schema:
 - BreadcrumbList
 - FAQPage
 
-## 8. Area page framework
+## 9. Area page framework
 
 Each area page needs a specific angle.
 
@@ -300,6 +356,7 @@ Do not mass-produce near-duplicates. Each page should answer:
 - what is different about this local market
 - what type of buyer behavior matters here
 - what trust issue or visibility issue is most relevant here
+- what styling or tone cues from the broader market brand still matter on this page
 
 ### Area-page schema
 
@@ -309,7 +366,7 @@ Include:
 - BreadcrumbList if used
 - areaServed set to that city or market
 
-## 9. Contact page framework
+## 10. Contact page framework
 
 ### SEO fields
 
@@ -350,7 +407,7 @@ If a backend exists later:
 - send form to CRM or inbox
 - keep direct call/text option visible
 
-## 10. Content rules
+## 11. Content rules
 
 ### Always include
 
@@ -360,6 +417,7 @@ If a backend exists later:
 - outcome-focused framing
 - internal links between services and area pages
 - FAQ sections where useful
+- local cues in tone, trust framing, and brand presentation
 
 ### Never include unless verified
 
@@ -371,19 +429,31 @@ If a backend exists later:
 - years in business
 - public email address
 
-## 11. Design system carryover
+## 12. Design system rules
 
-Keep these unless the brand changes them intentionally:
+Keep the reusable framework, but not the exact same finished styling, across markets.
 
-- warm, local, approachable visual tone
-- clean serif + sans pairing
-- soft gradients / editorial polish
+Carry over:
+
 - sticky nav
 - high-contrast CTA button
 - simple card-based sections
 - mobile-first spacing
 
-## 12. Technical checklist
+Customize by market:
+
+- palette
+- gradients or texture choices
+- serif versus sans emphasis
+- visual references to architecture, landscape, or civic cues
+- section emphasis and flow
+- trust language in headlines and CTAs
+
+Rule of thumb:
+
+The system can share bones, but each launch should feel dressed for its own city.
+
+## 13. Technical checklist
 
 Before launch, confirm:
 
@@ -400,8 +470,9 @@ Before launch, confirm:
 - no placeholder market tokens remain
 - no old city references remain
 - no old domain references remain
+- brand styling and copy pass clearly reflect the new market rather than the previous one
 
-## 13. Reusable launch checklist
+## 14. Reusable launch checklist
 
 ### Pre-build
 
@@ -410,11 +481,13 @@ Before launch, confirm:
 - confirm phone
 - confirm offer rules
 - confirm service areas
+- confirm local brand cues and buyer profile
 
 ### Build
 
 - duplicate starter
 - replace tokens
+- define market-specific visual direction
 - rewrite homepage
 - rewrite service pages
 - rewrite area pages
@@ -431,6 +504,7 @@ Before launch, confirm:
 - schema review
 - typo review
 - market-specific wording review
+- market-specific branding and flow review
 
 ### Launch
 
@@ -439,7 +513,7 @@ Before launch, confirm:
 - test calls/texts/forms
 - submit sitemap if needed
 
-## 14. Suggested future improvements to the framework
+## 15. Suggested future improvements to the framework
 
 Add these later to strengthen every future market launch:
 

@@ -4,6 +4,8 @@
 
 Use this SOP to clone the Soda City Growth model into new cities and metro areas without rebuilding the strategy from scratch.
 
+The framework should stay consistent, but the finished brand should not feel templated. Every market build should absorb local cues in its copy, color logic, styling, trust signals, and page flow so it feels native to that area rather than like a swapped-city clone.
+
 This system is not just a brochure website. It is a local lead-generation site built around one integrated offer stack:
 
 - free website build for qualifying businesses
@@ -109,6 +111,19 @@ The current model uses these copy rules:
 - avoid fake authority signals, fake numbers, fake testimonials, fake addresses, or fake case studies
 - keep schema conservative and supportable
 
+### Market-specific brand and design architecture
+
+Every market built from this SOP must translate the shared framework into a local brand system.
+
+That means:
+
+- use area-specific color and styling cues drawn from the local environment, civic identity, architecture, landscape, pace, and buyer expectations
+- let the local buyer profile shape the tone, page rhythm, CTA emphasis, and trust framing
+- make the site feel like it belongs in that market, not like it was skinned from a generic national template
+- keep the components reusable, but customize the brand expression, section emphasis, and copy angle for each market
+- use local cues tastefully, not like a mascot or tourism brochure
+- if a market signals polish, restraint, luxury, practicality, grit, coastal ease, institutional trust, or commuter convenience, let the design and copy reflect that reality
+
 ## Required inputs before building a new market site
 
 Do not start cloning until these inputs are gathered.
@@ -136,6 +151,10 @@ Do not start cloning until these inputs are gathered.
 - 4 to 8 secondary service areas
 - target industries or business categories
 - any neighborhoods or nearby towns worth referencing
+- local buyer profile and decision style
+- local trust signals that matter most
+- local visual cues such as civic colors, landscape, architecture, materials, pace, or cultural tone
+- any local design constraints, including things to avoid because they would feel off-brand for that market
 
 ### Offer inputs
 
@@ -173,8 +192,18 @@ Do not start cloning until these inputs are gathered.
 3. Note local phrasing, landmarks, commuter patterns, or geo references that help copy feel real.
 4. Check how competitors frame web design, SEO, GBP, and Google Ads.
 5. Decide which areas deserve dedicated pages now versus later.
+6. Identify the area's visual language, including likely color cues, materials, architecture, landscape, and brand mood.
+7. Identify how local buyers decide, for example whether they respond more to polish, practicality, speed, calm trust, authority, or convenience.
 
-### Phase 3: site setup
+### Phase 3: brand calibration
+
+1. Build a market-specific visual direction before rewriting the site.
+2. Choose a palette and styling cues based on the area, not just the previous market's look.
+3. Define what kind of person the market site should feel like, for example polished, grounded, premium, practical, local, direct, or civic.
+4. Decide which trust signals should be emphasized in design and copy for that market.
+5. Lock the homepage tone, CTA style, and page rhythm around that local brand direction.
+
+### Phase 4: site setup
 
 1. Duplicate the base repo or starter files.
 2. Replace brand name, domain, phone, and city tokens globally.
@@ -183,7 +212,7 @@ Do not start cloning until these inputs are gathered.
 5. Update areaServed arrays.
 6. Update robots.txt and sitemap.xml.
 
-### Phase 4: homepage build
+### Phase 5: homepage build
 
 1. Rewrite hero for the new market.
 2. Update area strip with the real metro ring.
@@ -191,8 +220,9 @@ Do not start cloning until these inputs are gathered.
 4. Keep the integrated service stack visible.
 5. Keep the roster-cap positioning if still true.
 6. Keep the FAQ grounded in real offers and real constraints.
+7. Adapt the visual tone, section emphasis, and trust framing to the local market instead of reusing the previous city's defaults.
 
-### Phase 5: service page build
+### Phase 6: service page build
 
 Build these pages:
 
@@ -208,23 +238,25 @@ For each page:
 3. Keep cross-links to the other services.
 4. Keep 3 to 6 FAQs that answer real objections.
 5. Make the page clearly support the overall growth model.
+6. Keep the tone and examples aligned with the local market's trust style and buyer expectations.
 
-### Phase 6: area page build
+### Phase 7: area page build
 
 1. Create one page per selected secondary market.
 2. Do not just swap city names.
 3. Give each page a distinct angle based on market behavior, trust profile, or demand shape.
 4. Link area pages back to service pages.
 5. Keep schema scoped to the actual area page.
+6. Let the area-level copy reflect what buyers in that place tend to reward, for example convenience, polish, authority, speed, restraint, or neighborhood credibility.
 
-### Phase 7: contact page build
+### Phase 8: contact page build
 
 1. Update phone, email, and form routing.
 2. Keep form fields aligned with lead qualification.
 3. Make the direct-contact path obvious.
 4. If email is not verified, do not publish one.
 
-### Phase 8: QA and launch
+### Phase 9: QA and launch
 
 1. Test every internal link.
 2. Test every phone link.
@@ -236,6 +268,7 @@ For each page:
 8. Review for leftover city, phone, brand, or domain references from the previous market.
 9. Deploy to staging or production.
 10. Smoke test the live site.
+11. Confirm the brand expression actually feels localized in color, tone, and page flow rather than like a generic carryover.
 
 ## Page-level framework
 
@@ -310,6 +343,7 @@ Must include:
 - how the full service stack applies locally
 - links back to core service pages
 - Service or WebPage schema scoped to that page
+- copy that reflects local buyer behavior and local trust priorities rather than generic market language
 
 ### Contact page
 
@@ -403,7 +437,7 @@ When cloning this system into multiple markets:
 - schema pattern
 - page-type framework
 - QA checklist
-- design system
+- reusable components and layout primitives
 - technical deployment flow
 
 ### Customize
@@ -418,6 +452,11 @@ When cloning this system into multiple markets:
 - niche examples
 - qualification language if needed
 - contact routing
+- color palette and visual cues
+- typography mood and styling tone
+- trust framing and CTA emphasis
+- section order or page flow when the market needs a different decision path
+- market-specific personality in copy and design
 
 ## Final QA checklist before any market goes live
 
@@ -433,6 +472,7 @@ When cloning this system into multiple markets:
 - robots.txt correct
 - contact routing tested
 - mobile nav tested
+- market-specific branding pass completed
 - no placeholder proof left behind
 - no unsupported claims published
 
@@ -443,6 +483,7 @@ A market clone is complete when:
 - the site can stand on its own in the new market
 - the messaging still reflects the integrated growth offer
 - the pages feel locally grounded, not mechanically swapped
+- the colors, styling, and page flow feel intentionally matched to the area and its buyers
 - the contact path works
 - the technical SEO basics are correct
 - the site is launch-ready without manual cleanup
