@@ -10,15 +10,19 @@ Columbia, South Carolina agency website built to target:
 - Production: https://soda-city-growth.vercel.app
 - GitHub: https://github.com/clawaccess-del/soda-city-growth
 
-## Current working brand
+## Brand
 - `Soda City Growth`
-- This is a placeholder brand that can be swapped quickly if a final agency name is chosen.
+- Approved to keep using this company name.
 
 ## Pages shipped
 - `/`
+- `/services/free-websites-columbia-sc.html`
 - `/services/web-design-columbia-sc.html`
 - `/services/seo-ai-ranking-columbia-sc.html`
 - `/services/google-ads-columbia-sc.html`
+- `/areas/lexington-sc-marketing-agency.html`
+- `/areas/west-columbia-sc-marketing-agency.html`
+- `/areas/irmo-sc-marketing-agency.html`
 
 ## What is already in place
 - Columbia-focused copy and location targeting
