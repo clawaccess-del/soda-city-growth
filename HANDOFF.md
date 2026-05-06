@@ -22,9 +22,12 @@ Columbia, South Carolina agency website built to target:
 - `/services/web-design-columbia-sc.html`
 - `/services/seo-ai-ranking-columbia-sc.html`
 - `/services/google-ads-columbia-sc.html`
+- `/areas/columbia-sc-marketing-agency.html`
 - `/areas/lexington-sc-marketing-agency.html`
 - `/areas/west-columbia-sc-marketing-agency.html`
+- `/areas/cayce-sc-marketing-agency.html`
 - `/areas/irmo-sc-marketing-agency.html`
+- `/areas/forest-acres-sc-marketing-agency.html`
 
 ## What is already in place
 - Columbia-focused copy and location targeting
@@ -36,6 +39,9 @@ Columbia, South Carolina agency website built to target:
 - Google Business Profile management, monthly posts, and citation support messaging on the homepage, SEO page, free website page, and contact page
 - AI ranking / AI-ready SEO positioning
 - Local service-area references
+- Homepage area strip now reads as areas served, links to real area pages, and no longer uses target-language
+- Six area pages now exist for Columbia, Lexington, West Columbia, Cayce, Irmo, and Forest Acres
+- Area pages have been rewritten to be more distinct, client-facing, and tied to the full offer instead of near-duplicate city swaps
 - Basic schema, robots.txt, sitemap.xml, favicon, shared CSS/JS
 - Vercel project created and deployed
 
