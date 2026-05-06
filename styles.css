@@ -87,6 +87,10 @@ h1, h2, h3,
   min-width: 0;
 }
 
+.brand-copy {
+  min-width: 0;
+}
+
 .brand strong {
   display: block;
   font-size: 1.08rem;
@@ -101,20 +105,18 @@ h1, h2, h3,
   margin-top: 4px;
 }
 
-.brand-mark {
-  width: 48px;
-  height: 48px;
-  border-radius: 18px;
-  display: grid;
-  place-items: center;
-  background:
-    radial-gradient(circle at 28% 25%, rgba(255, 255, 255, 0.24), transparent 18%),
-    linear-gradient(145deg, var(--deep), var(--deep-2) 60%, var(--river));
-  color: white;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  box-shadow: var(--shadow-soft);
+.brand-mark-image {
+  width: 56px;
+  height: auto;
+  display: block;
   flex: 0 0 auto;
+  filter: drop-shadow(0 10px 18px rgba(20, 34, 53, 0.12));
+  transition: transform 0.18s ease;
+}
+
+.brand:hover .brand-mark-image,
+.brand:focus-visible .brand-mark-image {
+  transform: translateY(-1px);
 }
 
 .nav {
@@ -695,10 +697,19 @@ h1 {
   gap: 20px;
 }
 
-.footer-row strong {
+.footer-brand {
+  max-width: 380px;
+}
+
+.footer-logo {
   display: block;
-  margin-bottom: 8px;
-  color: var(--deep);
+  width: min(220px, 100%);
+  height: auto;
+  margin-bottom: 14px;
+}
+
+.footer-brand p {
+  margin-bottom: 16px;
 }
 
 .contact-link {
@@ -754,6 +765,18 @@ h1 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .brand-mark-image {
+    width: 48px;
+  }
+
+  .brand small {
+    font-size: 0.72rem;
+  }
+
+  .footer-logo {
+    width: min(190px, 100%);
   }
 
   .nav {
