@@ -541,6 +541,80 @@ h1 {
   gap: 20px;
 }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 20px;
+}
+
+.contact-card {
+  padding: 28px;
+}
+
+.alt-card {
+  background: linear-gradient(180deg, rgba(255, 250, 243, 0.96), rgba(245, 238, 226, 0.92));
+}
+
+.contact-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.field-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.field-grid.two-col {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+}
+
+.field span {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--deep);
+}
+
+.field input,
+.field textarea,
+.field select {
+  width: 100%;
+  border: 1px solid rgba(20, 34, 53, 0.12);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+  font: inherit;
+  padding: 14px 16px;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.form-note,
+.small-note {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.contact-stack {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0;
+}
+
 .service-link-card {
   display: flex;
   flex-direction: column;
@@ -564,6 +638,14 @@ h1 {
   padding-bottom: 42px;
 }
 
+.contact-page .page-hero {
+  padding-top: 72px;
+}
+
+.contact-page .split-section {
+  align-items: start;
+}
+
 .site-footer {
   padding: 34px 0 46px;
   border-top: 1px solid rgba(26, 36, 51, 0.08);
@@ -585,6 +667,7 @@ h1 {
 .contact-link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 42px;
   padding: 0 16px;
   border-radius: 999px;
@@ -592,6 +675,12 @@ h1 {
   border: 1px solid rgba(20, 34, 53, 0.08);
   color: var(--deep);
   font-weight: 800;
+}
+
+.contact-link.strong {
+  background: linear-gradient(135deg, var(--deep), var(--deep-2) 60%, var(--river));
+  color: white;
+  border-color: transparent;
 }
 
 .footer-links {
@@ -605,6 +694,7 @@ h1 {
   .hero-grid,
   .split-section,
   .three-up,
+  .contact-grid,
   .service-links,
   .steps-grid,
   .two-up,
@@ -662,9 +752,14 @@ h1 {
   .mini-grid,
   .three-up,
   .two-up,
+  .contact-grid,
   .service-links,
   .steps-grid,
   .faq-list {
+    grid-template-columns: 1fr;
+  }
+
+  .field-grid.two-col {
     grid-template-columns: 1fr;
   }
 

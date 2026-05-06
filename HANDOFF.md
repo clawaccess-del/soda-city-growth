@@ -16,6 +16,7 @@ Columbia, South Carolina agency website built to target:
 
 ## Pages shipped
 - `/`
+- `/contact.html`
 - `/services/free-websites-columbia-sc.html`
 - `/services/web-design-columbia-sc.html`
 - `/services/seo-ai-ranking-columbia-sc.html`
@@ -34,6 +35,9 @@ Columbia, South Carolina agency website built to target:
 
 ## Contact
 - Public contact number now live on the site: `(803) 602-4458`
+- New contact page: `/contact.html`
+- Contact form currently captures name, phone, email, business, service interest, and notes, then opens a text draft to the business number on supported devices.
+- No public email address has been published yet because none has been provided.
 
 ## Biggest next improvements
 1. Add email, form, or calendar/contact CTA beyond the phone number

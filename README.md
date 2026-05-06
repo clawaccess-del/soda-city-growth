@@ -7,6 +7,7 @@ Columbia, South Carolina local-agency website focused on:
 
 ## Pages
 - `/` home
+- `/contact.html`
 - `/services/free-websites-columbia-sc.html`
 - `/services/web-design-columbia-sc.html`
 - `/services/seo-ai-ranking-columbia-sc.html`
@@ -18,4 +19,6 @@ Columbia, South Carolina local-agency website focused on:
 ## Notes
 - Built as a lightweight static site for fast Vercel deployment.
 - Public brand name: `Soda City Growth`.
-- Public contact routing is intentionally not hardcoded yet because final phone/email/calendar details were not provided.
+- Public phone routing is live at `(803) 602-4458`.
+- Contact form captures name, phone, email, business, and notes, then opens a text draft to the business number on supported devices.
+- A public email address is still not published because none has been provided yet.
