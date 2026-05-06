@@ -32,8 +32,11 @@ Columbia, South Carolina agency website built to target:
 - Basic schema, robots.txt, sitemap.xml, favicon, shared CSS/JS
 - Vercel project created and deployed
 
+## Contact
+- Public contact number now live on the site: `(803) 602-4458`
+
 ## Biggest next improvements
-1. Add final business name, phone, email, and calendar/contact CTA
+1. Add email, form, or calendar/contact CTA beyond the phone number
 2. Add proof: testimonials, case studies, screenshots, or offer examples
 3. Decide whether the free website offer is tied to SEO, ads, or either
 4. Add secondary local landing pages if expanding beyond the core Columbia terms

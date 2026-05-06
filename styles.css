@@ -582,6 +582,18 @@ h1 {
   color: var(--deep);
 }
 
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: rgba(20, 34, 53, 0.06);
+  border: 1px solid rgba(20, 34, 53, 0.08);
+  color: var(--deep);
+  font-weight: 800;
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
