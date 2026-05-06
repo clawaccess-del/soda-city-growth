@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://soda-city-growth.vercel.app/sitemap.xml
